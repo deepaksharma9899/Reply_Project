@@ -80,7 +80,7 @@ fun ReplyDetailsScreen(
 
 @Composable
 private fun ReplyDetailsScreenTopBar(
-    onBackButtonClicked: () -> Unit,
+    onBackButtonClicked: () ->  Unit,
     replyUiState: ReplyUiState,
     modifier: Modifier = Modifier
 ) {
